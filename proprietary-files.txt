@@ -832,11 +832,9 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 system_ext/lib64/lib-imsvideocodec.so|b7001bb1008106ccb9ef92dd2560e2052b40c325
 
 # Sensors
-vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/init/init.vendor.sensors.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
 
 # Snapdragon Computer Vision Engine
 vendor/lib/libfastcvdsp_stub.so
