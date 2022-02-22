@@ -516,17 +516,17 @@ vendor/lib/libmmosal.so|37febc914b2c706a5df0009cc134e9d80690aec0
 vendor/lib/libqcodec2.so|ba383c1eca48b29f1e0087970671a55167c96636
 vendor/lib64/libmmosal.so|dc6b82fa8d1bd1e7ee0c9dba2ec45b6b032efff0
 
-# Neural networks
-vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
-vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml
-vendor/lib64/libhexagon_nn_stub.so
-vendor/lib64/libhta_hexagon_runtime.so
-vendor/lib64/unnhal-acc-adreno.so
-vendor/lib64/unnhal-acc-common.so
-vendor/lib64/unnhal-acc-hta.so
-vendor/lib64/unnhal-acc-hvx.so
+# Neural networks - LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user
+vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|f751ee39e14b2a8643a0400674bbcef955a3bdf4
+vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|4b7f2c5f914f3eef38f19936c0a06efc09b5b28c
+vendor/lib64/libhexagon_nn_stub.so|6fdaffc1c9372c0e70bcd82f5d806162ca31c176
+vendor/lib64/libhta_hexagon_runtime.so|182452220effa50a247c714b13e25ebf1393ca4c
+vendor/lib64/unnhal-acc-adreno.so|fcc7574b2d6f686e28dae4e42c04ceef5e790c10
+vendor/lib64/unnhal-acc-common.so|e37d2113f99506f1de85902a0fdee0b443342942
+vendor/lib64/unnhal-acc-hta.so|7e11ddb04581f172e69b3778e0b803ef5ec39382
+vendor/lib64/unnhal-acc-hvx.so|3f61cfe064965ea1a5fc288b133da1802d36b608
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
+-vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
 
 # OMX
 vendor/lib/libAlacSwDec.so
