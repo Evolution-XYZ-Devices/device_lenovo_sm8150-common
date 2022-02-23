@@ -847,12 +847,12 @@ vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf
 -vendor/lib/libfastcvopt.so|5ec9730e71f7de49c1b931b028e76dfd8afddd61
 -vendor/lib64/libfastcvopt.so|b4b917d146f72c0ab50a5bc2beff92c03dba41dd
 
-# Soter
+# Soter - LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user
 -system/app/SoterService/SoterService.apk
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.soter@1.0.so
+vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
+vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
+vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|c20b05b20874e6b7f14cd61346646c79c363f42f
+vendor/lib64/vendor.qti.hardware.soter@1.0.so|52f410430054a012a983529b0ee1ed3b689b9dcb
 
 # Thermal
 vendor/bin/thermal-engine
