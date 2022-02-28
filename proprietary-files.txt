@@ -406,15 +406,15 @@ vendor/lib64/libgsl.so|b16047039badc627763014839ae6d379987a9779
 vendor/lib64/libllvm-glnext.so|c32e43fad7c41071c736ccc0daf311c3d72e52ef
 vendor/lib64/libllvm-qcom.so|6c19eabb6f1ed256bcc07cfd8596c48b968d4e68
 
-# Graphics (Adreno firmware) - LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user 
+# Graphics (Adreno firmware) - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/firmware/a630_gmu.bin|32bb4acc7767c47ddb487ed7cb998d465ee462f2
 vendor/firmware/a630_sqe.fw|6526cbb24d614dd67dc18e3c80d5c4374a0b3f63
 vendor/firmware/a640_gmu.bin|fb1eab0dd5f313abf31441e2209c9398da7df98b
 vendor/firmware/a640_zap.b00|7afc31984d7eeacdd0fc78118ad8fa46c9b3e4ee
-vendor/firmware/a640_zap.b01|36d83b5940948072a472fae9e9ad91c9eacb6047
-vendor/firmware/a640_zap.b02|27d26ca0ae982c065fb7ab58be73bf3ca2e8bdf3
-vendor/firmware/a640_zap.elf|7e5135f85057dd29db408ddc333011c3c3d26074
-vendor/firmware/a640_zap.mdt|ba7dc3fa1fed07caf22e6dddc80cd4f7b522526c
+vendor/firmware/a640_zap.b01|940868ef16c1068a79cbed4e04613ca1ad551efd
+vendor/firmware/a640_zap.b02|991903c32e25c8224cac3ed74009b65a291fbb5f
+vendor/firmware/a640_zap.elf|cac93211c1a666416bba734a2312d60c240a118f
+vendor/firmware/a640_zap.mdt|203b6a2c2c8b32b4b1cc9c8fdc43b661f8681d69
 
 # Graphics (Vulkan) - LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user 
 vendor/lib/hw/vulkan.adreno.so|c611ef7f442dc43c94f8d210578d3aefe62f1474
