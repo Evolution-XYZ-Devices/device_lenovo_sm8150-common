@@ -70,8 +70,6 @@ struct BiometricsFingerprint : public IBiometricsFingerprint, public IXiaomiFing
     Return<RequestStatus> remove(uint32_t gid, uint32_t fid) override;
     Return<RequestStatus> setActiveGroup(uint32_t gid, const hidl_string& storePath) override;
     Return<RequestStatus> authenticate(uint64_t operationId, uint32_t gid) override;
-    Return<void> onShowUdfpsOverlay() override;
-    Return<void> onHideUdfpsOverlay() override;
 
     Return<int32_t> extCmd(int32_t cmd, int32_t param) override;
 
@@ -91,6 +89,8 @@ struct BiometricsFingerprint : public IBiometricsFingerprint, public IXiaomiFing
     Return<bool> isUdfps(uint32_t sensorId) override;
     Return<void> onFingerDown(uint32_t x, uint32_t y, float minor, float major) override;
     Return<void> onFingerUp() override;
+    Return<void> onShowUdfpsOverlay() override;
+    Return<void> onHideUdfpsOverlay() override;
 };
 
 }  // namespace implementation
