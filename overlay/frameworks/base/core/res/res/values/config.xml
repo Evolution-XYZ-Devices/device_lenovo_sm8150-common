@@ -699,9 +699,6 @@
         corners. -->
     <dimen name="rounded_corner_radius_bottom_adjustment">48px</dimen>
 
-    <!-- If true, the display will be shifted around in ambient mode. -->
-    <bool name="config_enableBurnInProtection">true</bool>
-
     <!-- Specifies the maximum burn-in offset displacement from the center. If -1, no maximum value
          will be used. -->
     <integer name="config_burnInProtectionMaxRadius">70</integer>
