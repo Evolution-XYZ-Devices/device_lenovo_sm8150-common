@@ -11,3 +11,6 @@ hal_client_domain(system_app, vendor_hal_fm)
 allow system_app sysfs_zram:dir { search };
 allow system_app proc_pagetypeinfo:file { read };
 allow system_app sysfs_zram:file { read };
+
+# Zygote
+allow system_app zygote:unix_stream_socket { getopt };
