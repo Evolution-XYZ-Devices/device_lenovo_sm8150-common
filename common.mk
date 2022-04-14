@@ -278,6 +278,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     $(LOCAL_PATH)/keylayout/slip-cover.kl:system/usr/keylayout/slip-cover.kl
 
+# IORap
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.iorapd.enable=true \
+    persist.device_config.runtime_native_boot.iorap_perfetto_enable=true \
+    persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \
