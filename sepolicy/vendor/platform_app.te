@@ -1,16 +1,4 @@
 get_prop(platform_app, vendor_camera_prop)
 
-allow platform_app sysfs_device_info:lnk_file { read open getattr ioctl };
-allow platform_app vendor_sysfs_battery_supply:dir { search };
-allow platform_app vendor_sysfs_kgsl:file { read open getattr ioctl };
-allow platform_app vendor_sysfs_battery_supply:file { read open getattr ioctl };
-
-allow platform_app hal_dms_hwservice:hwservice_manager find;
-allow platform_app hal_dms_default:binder { call transfer };
-
-allow platform_app zygote:unix_stream_socket { getopt };
-
-get_prop(platform_app, vendor_display_notch_prop);
-
 # Soter
 hal_client_domain(platform_app, vendor_hal_soter);
