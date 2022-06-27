@@ -349,6 +349,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NotchBarKiller
 
+# Pixel Wallpapers (2021)
+PRODUCT_PACKAGES += \
+    PixelWallpapers2021
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.lenovo_msmnile-libperfmgr
