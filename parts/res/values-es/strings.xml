@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2016 The CyanogenMod Project
+                   2017-2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Ambient settings -->
+    <string name="ambient_enable">Usar pantalla ambiente</string>
+
+    <!-- Smart wake strings-->
+    <string name="smart_wake_gesture_title">Despertar inteligente</string>
+    <string name="smart_wake_gesture_summary">Mostrar notificaciones al mover ligeramente el teléfono y despertar pantalla al levantarlo</string>
+
+    <!--Display settings fragment -->
+    <string name="display_settings_title">Ajustes de pantalla específicos</string>
+    <string name="display_settings_summary">HBM (Modo de máximo brillo)</string>
+
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Limpiar altavoz</string>
+    <string name="clear_speaker_summary">Reproducir un audio de 30 segundos para limpiar el altavoz</string>
+    <string name="clear_speaker_description">Ejecuta esta función una o dos veces si encuentras tu altavoz ligeramente bloqueado por el polvo. Sube al máximo el volumen de multimedia.\n\nSi el altavoz está muy bloqueado, ejecuta esta función de dos a cinco veces mientras agitas tu teléfono con el altavoz orientado hacia abajo.</string>
+</resources>
