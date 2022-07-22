@@ -15,5 +15,6 @@
 
     <!-- ROM maintainer name -->
     <string name="build_maintainer_summary">Chema F. (@chematelegram)</string>
+    <string name="build_maintainer_telegram">https://t.me/chematelegram</string>
 
 </resources>
