@@ -345,10 +345,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
-# NotchBarKiller
-PRODUCT_PACKAGES += \
-    NotchBarKiller
-
 # Pixel Wallpapers (2021)
 PRODUCT_PACKAGES += \
     PixelWallpapers2021
