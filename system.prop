@@ -18,7 +18,7 @@ ro.sf.blurs_are_expensive=1
 
 # Camera
 sys.camera.packagename.zui=1
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.zui.camera,org.lineageos.snap,com.android.camera
+vendor.camera.aux.packagelist=com.zui.camera,com.android.camera
 vendor.camera.packagename.zui=1
 
 # Enable camera EIS
