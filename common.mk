@@ -15,7 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-# HIDL 
+# HIDL
 $(call inherit-product, $(LOCAL_PATH)/common-hidl.mk)
 
 # Get non-open-source specific aspects
@@ -270,6 +270,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/org.ifaa.android.manager/etc/permissions/org.ifaa.android.manager.permissions.xml:/$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.ifaa.android.manager.permissions.xml
+
+# IncrementalFS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.incremental.enable=yes
 
 # Input
 PRODUCT_COPY_FILES += \
