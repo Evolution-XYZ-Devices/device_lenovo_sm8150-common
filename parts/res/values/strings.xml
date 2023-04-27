@@ -17,6 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
+    <string name="proximity_sensor_summary">Pocket mode is required to be enabled</string>
 
     <!-- Smart wake strings-->
     <string name="smart_wake_gesture_title">Smart Wake</string>

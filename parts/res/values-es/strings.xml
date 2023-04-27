@@ -18,6 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Ambient settings -->
     <string name="ambient_enable">Usar pantalla ambiente</string>
+    <string name="proximity_sensor_summary">Necesita que el Modo Bolsillo esté activado</string>
 
     <!-- Smart wake strings-->
     <string name="smart_wake_gesture_title">Despertar inteligente</string>

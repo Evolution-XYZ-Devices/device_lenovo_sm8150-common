@@ -54,7 +54,8 @@
 
     <PreferenceCategory
         android:key="proximity_sensor"
-        android:title="@string/proximity_sensor_title">
+        android:title="@string/proximity_sensor_title"
+	android:summary="@string/proximity_sensor_summary">
 
         <SwitchPreference
             android:key="gesture_hand_wave"
