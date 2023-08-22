@@ -2,7 +2,3 @@ get_prop(platform_app, vendor_camera_prop)
 
 # Soter
 hal_client_domain(platform_app, vendor_hal_soter);
-
-# Dolby
-allow platform_app hal_dms_hwservice:hwservice_manager find;
-allow platform_app hal_dms_default:binder { call transfer };

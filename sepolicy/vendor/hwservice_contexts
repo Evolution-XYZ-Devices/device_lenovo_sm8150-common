@@ -8,6 +8,3 @@ vendor.nxp.nxpnfc::INxpNfc u:object_r:nxpnfc_hwservice:s0
 
 # IFAA
 vendor.zui.hardware.ifaa::IIFAADevice                                                               u:object_r:hal_ifaa_hwservice:s0
-
-# Dolby
-vendor.dolby.hardware.dms::IDms                                            			    u:object_r:hal_dms_hwservice:s0

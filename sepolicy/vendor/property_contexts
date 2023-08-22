@@ -13,9 +13,6 @@ sys.camera.packagename.zui                                      u:object_r:vendo
 sys.camera.restart.mark                                         u:object_r:vendor_camera_prop:s0
 sys.tof.cal                                                     u:object_r:vendor_camera_prop:s0
 
-# Dolby
-persist.vendor.dolby.loglevel					u:object_r:vendor_dolby_loglevel_prop:s0
-
 #Fingerprint
 gf.debug.                                                       u:object_r:vendor_default_prop:s0
 
