@@ -1,3 +1,9 @@
+# Dolby
+attribute hal_dms;
+attribute hal_dms_client;
+attribute hal_dms_server;
+
+# Mlipay
 attribute hal_ifaa;
 attribute hal_ifaa_client;
 attribute hal_ifaa_server;
