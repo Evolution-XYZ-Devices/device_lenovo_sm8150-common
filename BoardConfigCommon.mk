@@ -123,6 +123,10 @@ ODM_MANIFEST_FILES := $(DEVICE_PATH_COMMON)/manifest-qva.xml
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 
+# Lineage Health
+TARGET_HEALTH_CHARGING_CONTROL_CHARGING_PATH := /sys/class/power_supply/battery/charging_enabled
+TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_BYPASS := false
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
