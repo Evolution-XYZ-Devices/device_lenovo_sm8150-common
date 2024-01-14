@@ -221,23 +221,28 @@ vendor/etc/qdcm_calib_data_td4328_video_mode_dsi_truly_panel.xml|8507bdb787f0c77
 vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml|a6f31f4a721999d5ac813ee145572b05967e8ea4
 vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml|a6f31f4a721999d5ac813ee145572b05967e8ea4
 
-# DPM (system) - from LA.QSSI.12.0.r1-05800.02-qssi.0
-framework/tcmclient.jar|60fc12be7581c89cbdc3a5ba0526b423af492baa
-system_ext/bin/dpmd|b11102e06c7e169b3da762a0db408cb8e16d7b01
+# DPM (system) - from qssi-user-14-UKQ1.230804.001-2309192131-release-keys
+system/framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
+system_ext/bin/dpmd|5a42bc4e5c841573579e0718d6e80e688767eeed
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
 system_ext/etc/init/dpmd.rc|738b638ff04cda368e22c03e16baf90ba157a6fc
 system_ext/etc/permissions/com.qti.dpmframework.xml|c4b7ad0879d00c1eba4f3fe3a88ddb8aa153629a
 system_ext/etc/permissions/dpmapi.xml|255903759a60a31c0876ec004e74554c753270fe
-system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|10563c1f60c2e7cb80729c30dc131114e63ef2f3
-system_ext/lib64/libdiag_system.so|7f098303ab5c5d7fb300b8e43910b7120351f699
-system_ext/lib64/libdpmctmgr.so|5351d3a64687a8066ff972394e495ed6255caa44
-system_ext/lib64/libdpmfdmgr.so|3b7c5a6c652948fa86790478d4fcbd0df3172947
-system_ext/lib64/libdpmframework.so|3e2d68ddd6f944b44368be4190bc3c8f3d73fe6c
-system_ext/lib64/libdpmtcm.so|ac8bb063de43870f67e2aba15eee5baaa9864c84
-system_ext/lib64/vendor.qti.diaghal@1.0.so|0158bec299e6bef47604a946145ab321184b2c24
-system_ext/framework/com.qti.dpmframework.jar|5e60f7b8cde0526767c909e80512a22edef373cb
-system_ext/framework/dpmapi.jar|005e8092687849615ce119b5d6c188f08e397d79
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|d2651605b9b1dcc84d84b411a5b238c7f73aed77
+system_ext/framework/com.qti.dpmframework.jar|4fc38f534c788b80b432b385e07973bdd6e8c98f
+system_ext/framework/dpmapi.jar|c379f7a671439737fbff03411f28891d0f9313c9
+system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so|f65b91508c640b432af56086fe5e8a68f563549a
+system_ext/lib/libdpmctmgr.so|45eb9049044f42ea35a30def9432a1fa4b0d4256
+system_ext/lib/libdpmfdmgr.so|1c4bf24ae4ce5ca3f60540bce09980bd4c0740a3
+system_ext/lib/libdpmframework.so|f328cd64c48024baed64d855b0d97ee2600ffea9
+system_ext/lib/libdpmtcm.so|113c2418e759069dc0b3d49c02132a09a424bfee
+system_ext/lib/vendor.qti.diaghal@1.0.so|2387aedd0e5c9d1027229dffc4692e03ecaed16f
+system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|3e9786c8263de4135926a91083b70a737fc1d28b
+system_ext/lib64/libdiag_system.so|f46e7b1741724d42a562106a3ae6a6492d8d52d1
+system_ext/lib64/libdpmctmgr.so|206949728b98a513683468209dbce86ed29412b8
+system_ext/lib64/libdpmfdmgr.so|da636fca9a9a91a897d17fd519448b10053a696b
+system_ext/lib64/libdpmframework.so|d974f04f110b3c1a1282d78bb0ff8a29dc022439
+system_ext/lib64/libdpmtcm.so|5521469cac3a2bec3da66cd36637df83ee59b97e
+system_ext/lib64/vendor.qti.diaghal@1.0.so|8afba353fd94d2e955dd626a0eb8029530219732
 
 # DPM (vendor)- LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user
 vendor/bin/dpmQmiMgr|61a421804559b0e461439c19088acc01b871982a
