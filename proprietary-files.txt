@@ -585,9 +585,10 @@ vendor/bin/pm-service|c3d1b2f6e7f731b1328afbcf8e344405744528e3
 vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 vendor/lib64/libspcom.so|7cc4390e7caf520586c22cdb7219842fa5d6ed2c
 
-# Power-off alarm - LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user
--product/app/PowerOffAlarm/PowerOffAlarm.apk
-system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+# Power-off alarm (system) - from qssi-user-14-UKQ1.230804.001-2309192131-release-keys
+system_ext/app/PowerOffAlarm/PowerOffAlarm.apk|c31a2bdbed4398c95812ac2d3d0162d632055e00
+
+# Power-off alarm (vendor) - from LA.UM.9.1.r1-11500-SMxxx0.0 msmnile-user
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|23ab1405821bb30553f20ad5e785959008440f7f
 vendor/bin/power_off_alarm|dcab61bc1312941b506cb22b1236edee72080318
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6ffb466e23a7fc3b05
