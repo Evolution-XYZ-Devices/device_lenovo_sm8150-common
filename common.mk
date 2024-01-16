@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v29/arm64/arch-arm64-armv8-a/shared/vndk-sp/libc++.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++.so
 
+# Clone apps exemption
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sysconfig/preinstalled-packages-platform-lenovo-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-lenovo-product.xml
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
