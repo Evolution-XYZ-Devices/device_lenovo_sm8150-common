@@ -67,6 +67,10 @@ on post-fs-data
     mkdir /data/vendor/nnhal 0700 system system
     mkdir /data/vendor/dolby 0770 media media
 
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
 on early-boot
     start vendor.sensors
 
