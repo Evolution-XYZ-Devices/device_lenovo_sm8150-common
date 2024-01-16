@@ -4,8 +4,7 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiOverlay",
-    theme: "WifiOverlay",
-    sdk_version: "current",
+    name: "CellBroadcastReceiverOverlayLenovo",
+    theme: "CellBroadcastReceiverOverlayLenovo",
     product_specific: true,
 }
